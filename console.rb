@@ -35,5 +35,7 @@ album1.save()
 album2.save()
 album3.save()
 
+album1.artist()
+
 binding.pry
 nil
