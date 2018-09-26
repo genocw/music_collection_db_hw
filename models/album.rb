@@ -30,7 +30,7 @@ class Album
     values = [@artist_id]
     results = SqlRunner.run(sql, values)
     artist = Artist.new(results[0])
-    #return artist object
+    return artist
   end
 
 end
