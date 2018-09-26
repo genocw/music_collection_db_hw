@@ -31,9 +31,9 @@ album3 = Album.new({
   "artist_id" =>  artist2.id
   })
 
-# album1.save()
-# album2.save()
-# album3.save()
+album1.save()
+album2.save()
+album3.save()
 
-# binding.pry
-# nil
+binding.pry
+nil
